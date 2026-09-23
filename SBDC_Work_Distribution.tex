@@ -1,0 +1,225 @@
+%=====================================================================
+%  Smart Bangladesh Digital City Network -- Work Distribution
+%  CSE421 Computer Networks, BRAC University
+%
+%  Compile with:  pdflatex SBDC_Work_Distribution.tex  (run twice for the ToC)
+%
+%  EDIT ME: the three \memX / \idX macros just below are the ONLY place
+%  member names and IDs need to be changed. Everything else follows.
+%=====================================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{tikz}
+\usepackage[hidelinks,bookmarks=true]{hyperref}
+
+%------------------------------------------------- %% EDIT: members
+\newcommand{\memA}{Mohammad Jabir Safa Khandoker}
+\newcommand{\idA}{22201108}
+\newcommand{\memB}{Md. Saadat Rahman}
+\newcommand{\idB}{22201101}
+\newcommand{\memC}{Nazah S. Anis}
+\newcommand{\idC}{22201105}
+
+\definecolor{navy}{RGB}{0,60,110}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape SBDC Network --- Work Distribution}
+\fancyhead[R]{\small CSE421}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setlist{itemsep=2pt,parsep=0pt,topsep=4pt}
+\captionsetup{font=small,labelfont={bf,color=navy}}
+\renewcommand{\arraystretch}{1.2}
+
+\newcommand{\netc}[1]{\texttt{\small #1}}
+
+
+%=====================================================================
+\begin{document}
+
+%---------------------------------------------------------------- COVER
+\begin{titlepage}
+\centering
+\vspace*{6mm}
+
+% %% EDIT: uncomment and supply a logo file if your group uses one
+% \includegraphics[width=0.28\textwidth]{bracu_logo.png}\\[10mm]
+
+{\LARGE\scshape BRAC University\par}
+\vspace{5mm}
+{\large Department of Computer Science and Engineering\par}
+
+\vspace{26mm}
+{\color{navy}\rule{\linewidth}{1.2pt}}
+\vspace{8mm}
+
+{\huge\bfseries Smart Bangladesh Digital City Network\par}
+\vspace{6mm}
+{\Large Work Distribution Among Group Members\par}
+
+\vspace{8mm}
+{\color{navy}\rule{\linewidth}{1.2pt}}
+
+\vspace{20mm}
+{\large \textbf{Course Code:} CSE421 \par}
+\vspace{3mm}
+{\large \textbf{Course Name:} Computer Networks \par}
+\vspace{3mm}
+{\large \textbf{Group Number:} Group 01 \par}
+
+\vspace{18mm}
+{\large\bfseries Submitted by\par}
+\vspace{5mm}
+
+\begin{tabular}{@{}p{75mm}p{35mm}@{}}
+\toprule
+\textbf{Name} & \textbf{Student ID} \\
+\midrule
+\memA & \idA \\
+\memB & \idB \\
+\memC & \idC \\
+\bottomrule
+\end{tabular}
+
+\vfill
+{\large August 2026\par}
+\vspace{4mm}
+\end{titlepage}
+
+\setcounter{page}{1}
+
+%=====================================================================
+\section{Overview}
+
+The implementation of the Smart Bangladesh Digital City Network was carried out in six major phases. This document records which of those phases each member of Group 01 worked on.
+
+\begin{table}[htbp]
+\centering
+\caption{The six major implementation phases}
+\label{tab:phases}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Phase} & \textbf{Name} \\
+\midrule
+Phase 1 & Design on paper \\
+Phase 2 & Build the topology in Packet Tracer \\
+Phase 3 & Addressing \\
+Phase 4 & DHCP \\
+Phase 5 & Routing \\
+Phase 6 & Servers and services \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent
+Preliminary planning, the backup routing demonstration and the final report were carried out jointly by all three members and are therefore not attributed to any individual.
+
+\begin{table}[htbp]
+\centering
+\caption{Required setups mapped to members}
+\label{tab:setups}
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Member} & \textbf{Name} & \textbf{Required setup configured} \\
+\midrule
+Member 1 & \memA & DHCP, Dynamic Routing \\
+Member 2 & \memB & Static Routing \\
+Member 3 & \memC & Email \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%=====================================================================
+\section{\memA}
+
+\noindent
+\textbf{Student ID:} \idA \\
+\textbf{Required setup configured:} DHCP, Dynamic Routing
+
+\vspace{2mm}
+\noindent
+Phases worked on:
+
+\begin{itemize}[leftmargin=*]
+\item Phase 1 --- Design on paper
+\item Phase 2 --- Build the topology in Packet Tracer
+\item Phase 3 --- Addressing
+\item Phase 4 --- DHCP
+\item Phase 6 --- Servers and services
+\end{itemize}
+
+%=====================================================================
+\section{\memB}
+
+\noindent
+\textbf{Student ID:} \idB \\
+\textbf{Required setup configured:} Static Routing
+
+\vspace{2mm}
+\noindent
+Phases worked on:
+
+\begin{itemize}[leftmargin=*]
+\item Phase 1 --- Design on paper
+\item Phase 2 --- Build the topology in Packet Tracer
+\item Phase 3 --- Addressing
+\item Phase 5 --- Routing
+\end{itemize}
+
+%=====================================================================
+\section{\memC}
+
+\noindent
+\textbf{Student ID:} \idC \\
+\textbf{Required setup configured:} Email
+
+\vspace{2mm}
+\noindent
+Phases worked on:
+
+\begin{itemize}[leftmargin=*]
+\item Phase 1 --- Design on paper
+\item Phase 2 --- Build the topology in Packet Tracer
+\item Phase 3 --- Addressing
+\item Phase 6 --- Servers and services
+\end{itemize}
+
+%=====================================================================
+\section{Summary}
+
+\begin{table}[htbp]
+\centering
+\caption{Phases worked on by each member}
+\label{tab:matrix}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Phase} & \textbf{Member 1} & \textbf{Member 2} & \textbf{Member 3} \\
+\midrule
+Phase 1 --- Design on paper                   & \textbullet & \textbullet & \textbullet \\
+Phase 2 --- Build the topology in Packet Tracer& \textbullet & \textbullet & \textbullet \\
+Phase 3 --- Addressing                        & \textbullet & \textbullet & \textbullet \\
+Phase 4 --- DHCP                              & \textbullet &             &             \\
+Phase 5 --- Routing                           &             & \textbullet &             \\
+Phase 6 --- Servers and services              & \textbullet &             & \textbullet \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent
+
+\end{document}
